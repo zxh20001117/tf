@@ -20,6 +20,8 @@ While text-to-image (T2I) generation models have achieved remarkable progress in
 The TokenFocus-VQA system extends the standard Visual Question Answering (VQA) paradigm with these innovations:
 ![The overall framework of our proposed TokenFocus-VQA](/img/img2.png) 
 
+
+
 ### Key Components
 1. **Multimodal Encoding**  
    - Processes both visual inputs (images) and structured queries through pre-trained LVLMs
@@ -37,3 +39,4 @@ The TokenFocus-VQA system extends the standard Visual Question Answering (VQA) p
 4. **Multi-Model Integration**
    - Implements bootstrap aggregating across multiple LVLM instances
    - Combins stacking and bagging via meta-learner integration
+  ![The overall framework of our proposed TokenFocus-VQA](/img/img3.png) 
