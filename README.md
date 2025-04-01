@@ -12,13 +12,13 @@ While text-to-image (T2I) generation models have achieved remarkable progress in
 - **State-of-the-Art Performance**  
   Extensive experiments demonstrate the effectiveness of TokenFocus-VQA, showing superior performance on both the EvalMuse-40K benchmark and NTIRE 2025 competition testbed.
   
-![Actual use case demonstration of the EvalMuse-40K in the NTIRE 2025 competition](/img/img1.png) 
+![Actual use case demonstration of the EvalMuse-40K in the NTIRE 2025 competition](./img/img1.png) 
 
 
 
 ## Methodology
 The TokenFocus-VQA system extends the standard Visual Question Answering (VQA) paradigm with these innovations:
-![The overall framework of our proposed TokenFocus-VQA](/img/img2.png) 
+![The overall framework of our proposed TokenFocus-VQA](./img/img2.png) 
 
 
 
@@ -39,4 +39,4 @@ The TokenFocus-VQA system extends the standard Visual Question Answering (VQA) p
 4. **Multi-Model Integration**
    - Implements bootstrap aggregating across multiple LVLM instances
    - Combins stacking and bagging via meta-learner integration
-  ![The overall framework of our proposed TokenFocus-VQA](/img/img3.png) 
+  ![The overall framework of our proposed TokenFocus-VQA](./img/img3.png) 
